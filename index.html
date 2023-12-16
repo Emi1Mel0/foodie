@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <div class="sideBar position-fixed text-light w-25">
+      <div class="position-relative w-75">
+        <div class="insiderPart d-flex flex-column justify-content-between">
+          <div class="topPart">
+            <ul>
+              <li><a href="" onclick="">Search</a></li>
+              <li>
+                <a href="" onclick="displayMyCategories();">Categories</a>
+              </li>
+              <li><a href="" onclick="">Area</a></li>
+              <li>
+                <a href="" onclick="displayIngredients();">Ingredients</a>
+              </li>
+              <li><a href="" onclick="">Contacts Us</a></li>
+            </ul>
+          </div>
+          <div class="bottomPart">
+            <div class="partOne px-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="partTwo px-3 w-75">
+              <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="outerPart position-absolute w-25 bg-light text-black text-center d-flex flex-column justify-content-between"
+        >
+          <div class="outOne">
+            <img
+              src="./Images/logo.png"
+              class="w-100 p-2"
+              alt="logo of the website"
+            />
+          </div>
+          <div class="outTwo">
+            <i
+              class="fourLayersIcon fa-solid open-close-icon fa-2x fa-align-justify"
+            ></i>
+          </div>
+          <div class="outThree">
+            <div>
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="homePage">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <div>
+              <figure></figure>
+              <figcaption>
+                <h2 class="mealName"></h2>
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div>
+              <figure></figure>
+              <figcaption>
+                <h2 class="mealName"></h2>
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div>
+              <figure></figure>
+              <figcaption>
+                <h2 class="mealName"></h2>
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div>
+              <figure></figure>
+              <figcaption>
+                <h2 class="mealName"></h2>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categoriesSection">
+      <div class="container">
+        <div class="rowCategories row"></div>
+      </div>
+    </section>
+
+    <section class="IngredientsSection">
+      <div class="container">
+        <div id="" class="rowIngredients row"></div>
+      </div>
+    </section>
+
+    <section class="ContactsUsSection">
+      <div class="container">
+        <div
+          class="rowContactsUs vh-100 m-auto d-flex justify-content-center align-items-center"
+        ></div>
+      </div>
+    </section>
+
+    <script src="./JS/jquery-3.6.3.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/all.min.js"></script>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

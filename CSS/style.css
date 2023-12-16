@@ -1,0 +1,62 @@
+body {
+  background: #000;
+  text-transform: capitalize;
+}
+
+.categoryInfo,
+.mainInfo {
+  background-color: #ffffffb5;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 100%;
+  -webkit-transition: all ease-in-out 0.6s;
+  -moz-transition: all ease-in-out 0.6s;
+  -ms-transition: all ease-in-out 0.6s;
+  -o-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+}
+
+.categoryPic:hover .categoryInfo {
+  top: 0;
+}
+
+.mainPic:hover .mainInfo {
+  top: 0;
+}
+
+.categoryPic,
+.IngredientsPart,
+.mainPic,
+.fourLayersIcon {
+  cursor: pointer;
+}
+
+.outerPart{
+  top: 0;
+  right: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  cursor: pointer;
+  text-align: center;
+}
+
+.insiderPart,
+.outerPart {
+  height: 100vh;
+}
+
+.sideBar{
+  z-index: 34234;
+}
